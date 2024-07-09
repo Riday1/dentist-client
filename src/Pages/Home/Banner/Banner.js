@@ -5,7 +5,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className="hero  min-h-screen banner-background px-5">
+        <div className="hero py-20 banner-background px-5">
             <div className="hero-content flex-col lg:flex-row">
                 <div className="w-full lg:w-1/2 text-center lg:text-left ">
                     <h1 className="text-5xl font-bold my-4">Your New Smile <br /> Starts Here</h1>

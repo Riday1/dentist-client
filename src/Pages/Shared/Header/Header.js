@@ -12,7 +12,7 @@ const Header = () => {
         <li><Link to='/login'>Login</Link></li>
     </React.Fragment>
     return (
-        <div className="navbar bg-base-100 shadow-md h-24">
+        <div className="navbar bg-base-100 shadow-md h-24 sticky ">
             <div className="navbar-start">
                 <Link className="btn btn-ghost text-xl">Doctor's Portal</Link>
             </div>

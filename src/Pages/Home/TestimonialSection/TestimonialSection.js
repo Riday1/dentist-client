@@ -53,13 +53,13 @@ const TestimonialSection = () => {
         },
     ]
     return (
-        <div className='p-14 my-20'>
+        <section className='p-14 my-20'>
             <div className='my-10 flex justify-between'>
                 <div className=''>
                     <h5 className='text-xl text-primary my-4 font-bold'>Testimonial</h5>
                     <h1 className='text-4xl font-semibold my-4'>What Our Patients Says</h1>
                 </div>
-                <img src={quote} className='w-[192px] h-[156px]' alt="" />
+                <img src={quote} className='lg:w-[192px] w-[92px]' alt="" />
 
             </div>
 
@@ -68,7 +68,7 @@ const TestimonialSection = () => {
                     allTestimonialsData.map(singleTestimonial => <SingleTestimonial key={singleTestimonial.id} singleTestimonial={singleTestimonial}></SingleTestimonial>)
                 }
             </div>
-        </div>
+        </section>
     );
 };
 
