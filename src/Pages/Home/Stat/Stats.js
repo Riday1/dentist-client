@@ -29,7 +29,7 @@ const Stats = () => {
         },
     ]
     return (
-        <div className=" grid  lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-20 my-20 ">
+        <div className=" grid  lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-20 my-20 px-10 lg:px-0">
             {
                 cardInfos.map(cardInfo => <SingleInfoCard key={cardInfo.id} cardInfo={cardInfo}></SingleInfoCard>)
             }

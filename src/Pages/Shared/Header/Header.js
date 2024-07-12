@@ -12,7 +12,7 @@ const Header = () => {
         <li><Link to='/login'>Login</Link></li>
     </React.Fragment>
     return (
-        <div className="navbar bg-base-100 shadow-md h-24 sticky ">
+        <div className="navbar bg-base-100 shadow-md h-24 ">
             <div className="navbar-start">
                 <Link className="btn btn-ghost text-xl">Doctor's Portal</Link>
             </div>
@@ -21,7 +21,7 @@ const Header = () => {
                     {menuItems}
                 </ul>
             </div>
-            <div className='navbar-end lg:hidden '>
+            <div className='navbar-end lg:hidden'>
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg
@@ -39,7 +39,7 @@ const Header = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-screen p-2 shadow absolute  right-0">
+                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3  p-2 shadow absolute  right-0">
                         {menuItems}
                     </ul>
                 </div>
